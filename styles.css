@@ -24,7 +24,7 @@ body{
     min-width: 480px;
     height: 768px;
     color: white;
-    /* overflow: scroll; */
+    overflow: scroll;
 }
 
 .todo__header{
@@ -56,11 +56,11 @@ body{
 }
 
 .done{
-    /* text-decoration: line-through; */
+    text-decoration: line-through;
     color: #aaa;
     border-bottom: 2px solid rgb(65, 52, 32);
 }
-#tick-mark{
+/* #tick-mark{
     margin-left: 39.3rem;
     background:rgb(73, 204, 73);
     color: white;
@@ -82,4 +82,4 @@ body{
     position: absolute;
     transition-property: opacity, left, top, height;
   transition-duration: 3s, 5s, 3s, 5s;
-}
+} */
